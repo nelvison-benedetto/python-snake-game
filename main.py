@@ -23,6 +23,8 @@ while isRunning:
     time.sleep(0.1)
     snake.move()
 
+
+
     if snake.segments[0].distance(food) < 15:
         food.refresh()
         snake.extend_snake()
